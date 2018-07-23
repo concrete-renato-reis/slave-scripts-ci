@@ -1,4 +1,6 @@
 #!/bin/bash --login
+env | sort
+ANDROID_HOME=/Users/bcg/Library/Android/sdk
 
 ### Script for start Android virtual device and Appium Server ###
 

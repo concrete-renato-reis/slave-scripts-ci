@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash --login
 ### Script for Kill process on Linux ###
 ### Created by Marcio G Chahad - version 1.0 - 070618 ###
 

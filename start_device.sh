@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash --login
 
 ### Script for start Android virtual device and Appium Server ###
 
@@ -23,4 +23,3 @@ fi
 ### START DEVICE ###
 
 $HOME/Library/Android/sdk/tools/emulator -avd "$NEXUS" &
-

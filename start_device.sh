@@ -1,4 +1,5 @@
 #!/bin/bash --login
+set -vx
 env | sort
 ANDROID_HOME=/Users/bcg/Library/Android/sdk
 

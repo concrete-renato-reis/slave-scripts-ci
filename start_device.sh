@@ -1,6 +1,6 @@
 #!/bin/bash --login
-set -vx
-env | sort
+#set -vx
+
 ANDROID_HOME=/Users/bcg/Library/Android/sdk
 
 ### Script for start Android virtual device and Appium Server ###
@@ -25,4 +25,4 @@ fi
 
 ### START DEVICE ###
 
-$HOME/Library/Android/sdk/tools/emulator -avd "$NEXUS" &
+$HOME/Library/Android/sdk/tools/emulator -avd "$NEXUS" -wipe-data &

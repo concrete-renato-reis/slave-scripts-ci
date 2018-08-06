@@ -11,7 +11,7 @@ if [ ! -z $CHECK_EMULATOR ]; then
 
    kill -9 $CHECK_EMULATOR
    
-   echo "Kill Emulator
+   echo "Kill Emulator"
 
    else
 

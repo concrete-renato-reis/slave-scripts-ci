@@ -25,4 +25,4 @@ fi
 
 ### START DEVICE ###
 
-$HOME/Library/Android/sdk/tools/emulator -avd "$NEXUS" -wipe-data &
+$HOME/Library/Android/sdk/tools/emulator -avd "$NEXUS" -wipe-data -no-cache &
